@@ -33,5 +33,14 @@ body {
   background-size: 100% 100%;
 }
 
+.img-brand {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  height: 100px;
+  width: 200px;
+}
 
-
+.nav-color {
+  color: #DA1B0C;
+}
