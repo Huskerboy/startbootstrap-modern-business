@@ -44,3 +44,8 @@ body {
 .nav-color {
   color: #DA1B0C;
 }
+
+#brand-page {
+  height: 325px;
+  width: 348px;
+}
