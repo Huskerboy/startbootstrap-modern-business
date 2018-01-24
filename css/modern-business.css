@@ -29,7 +29,12 @@ body {
 }
 
 .card-body {
-  height: 200px;
+  height: 250px;
+  background-size: 100% 100%;
+}
+
+.card-body2 {
+  height: 300px;
   background-size: 100% 100%;
 }
 
@@ -51,5 +56,5 @@ body {
 }
 
 #card-2 {
-  height: 350px;
+  height: 300px;
 }
