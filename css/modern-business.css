@@ -53,6 +53,8 @@ body {
 #brand-page {
   height: 325px;
   width: 348px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #card-2 {
