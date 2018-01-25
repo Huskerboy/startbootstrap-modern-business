@@ -60,3 +60,8 @@ body {
 #card-2 {
   height: 300px;
 }
+
+.little {
+  height: 50px;
+  width: 150px;
+}
