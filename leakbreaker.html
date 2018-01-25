@@ -100,7 +100,56 @@
         <li class="breadcrumb-item active">LeakBreaker</li>
       </ol>
 
-      <iframe width="1120" height="630" src="https://www.youtube.com/embed/MdxFEblR7pw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col-lg-8 mb-8">
+          <iframe width="700" height="400" src="https://www.youtube.com/embed/MdxFEblR7pw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <p>The Taco LeakBreaker is a water heater leak protection device that protects again flood damage from the containment failure of a water heater. It consists of a control unit, valve with actuator and snesor. This resettable, testable protection device can be installed on any style water heater to shut-off the incoming water supply, preventing additional water flow to a damaged water heater. The two color LED light and audible alarm lets you know the status of the LeakBreaker at all times.</p> 
+        </div>
+      </div>
+      <!-- Contact Form -->
+      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <h3>Send us a Message</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Full Name:</label>
+                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email Address:</label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Message:</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+          </form>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img class="img-fluid rounded" src="static/leakbreaker2.jpg" alt="">
+        </div>
+      </div>
+      <!-- /.row -->
+
 
     </div>
     <!-- /.container -->
